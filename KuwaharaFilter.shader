@@ -42,9 +42,6 @@ Shader "Unlit/KuwaharaFilter"
                 float4 vertex : SV_POSITION;
             };
 
-            TEXTURE2D(_MainTex);
-            float4 _MainTex_TexelSize;
-            SAMPLER(sampler_MainTex);
             float _Size;
             float4 _BlitTexture_TexelSize;
 
